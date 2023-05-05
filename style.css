@@ -1,0 +1,52 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box; 
+    border: none;transition: .2s linear;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background: url(gr.jpg) no-repeat;
+    background-size: cover;background-position: center;
+}
+.box{
+    width: 700px;height: 550px;
+    border-radius: 20px; text-align: center;
+    margin: auto; margin-top: 50px;
+    padding: 10px;background: url(grrr.jpg);
+}
+i{
+    font-size: 50px; color: rgb(115, 207, 138)
+}
+h1{
+    color: rgb(115, 207, 138); font: 20px;text-transform: uppercase;
+    margin: auto;margin-top: 5px;text-shadow: 5px 9px 9px black;
+}
+.msc{
+    border: 2px solid white;border-radius: 10px;
+    width: 600px;margin: auto;margin-top: 10px;padding-bottom: 20px;
+}
+.msc .trois{
+    width: 600px; margin-top: 20px;
+    display: flex;justify-content: space-evenly;
+}
+.msc .trois h3{
+    border-radius: 20px;border: 1px solid white;
+    font-size: small;color: white;
+    margin-left: 10px;  padding: 10px;
+}
+#timer {
+    font-size: 110px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 50px;color: white; 
+}
+.btn{
+    width: 600px; margin: auto;margin-top: 20px;text-align: center;
+}
+button {
+    padding: 5px;margin: auto;margin: 20px; margin-top: 50px;
+    font-weight: bold; font-size: 18px; text-transform: uppercase;
+    border-radius: 10px;cursor: pointer;
+    background-color: black;color: rgb(56, 109, 67);
+    height: 50px; width: 120px;      
+}
+button:hover{
+    box-shadow: 9px 9px 5px rgb(9, 32, 14);
+}
